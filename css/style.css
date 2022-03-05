@@ -1,0 +1,24 @@
+body{
+    margin: 0 auto;
+}
+
+.main{
+    background: url(../fundo.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+  
+}
+
+.main2{
+    background-color: rgba(66, 71, 67, 0.6);
+    height: 100%;
+}
+
+.form{
+    justify-content: center;
+    display: flex;
+}
+
+.form_content{
+    margin-top: 100px;
+}
