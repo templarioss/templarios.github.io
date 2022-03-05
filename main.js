@@ -18,6 +18,15 @@ function metodo() {
     salvarResultado(result);
 }
 
+function testar(){
+    var comboCidades = document.getElementById("selecao");
+    if(comboCidades.value == 1){
+        quebrarLinhaCoordenadas();
+    }else if(comboCidades.value == 2){
+        quabrarLinhaComClaim();
+    }
+}
+
 
 function quebrarLinhaCoordenadas() {
     var string = document.getElementById('text').value;
