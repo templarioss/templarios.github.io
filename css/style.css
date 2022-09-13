@@ -22,4 +22,11 @@ body{
 .form_content{
     margin-top: 100px;
     display: grid;
+    
+    justify-items: center;
+   
+}
+
+.TEXTCENTER{
+    color: white;
 }

@@ -53,7 +53,7 @@ function quabrarLinhaComClaim(){
     var result = '';
     for (var pos = 0; pos < resultado.length; pos++) {
         var aux_pos = parseInt(pos) + 1;
-        result += aux_pos+ '. ' + "[coord]"+resultado[pos]+"[/coord]" + '\n';
+        result += aux_pos+ '. ' + "[claim]"+resultado[pos]+"[/claim]" + '\n';
     }
     salvarResultado(result);
 }
